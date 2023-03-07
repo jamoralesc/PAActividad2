@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="styles/zen-css.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <form id="form-login">
+        <label for="nombre-login">Usuario</label>
+        <input type="text" id="nombre-login" placeholder="usuario" required minlength="6" maxlength="15">
+        <span id="span-error1" style="display: none"></span>
+        <span id="span-error2" style="display: none"></span>
+        <span id="span-error3" style="display: none"></span>
+
+        <label for="email-login">Email</label>
+        <input type="text" id="email-login" placeholder="Ej. correo@correo.com" required>
+        <span id="span-error4" style="display: none"></span>
+
+        <label for="pass-login">Password</label>
+        <input type="password" id="pass-login" placeholder="Password" required>
+
+        <label for="fecnac-login">Fecha Nacimiento</label>
+        <input type="date" id="fecnac-login" required>
+
+        <br><br><br>
+        <input type="submit" value="Iniciar sesion">
+
+        
+    </form>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
